@@ -1,0 +1,31 @@
+
+body{
+    background: url('../images/background.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: 'Pangolin', cursive;
+}
+
+.container{
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.perfil{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    height: 250px;
+    width: 200px;
+}
+
+.name{
+    color: #fff;
+    font-size: 24px;
+}
+
+.city{
+    text-align: center;
+    color: #fff;
+}
